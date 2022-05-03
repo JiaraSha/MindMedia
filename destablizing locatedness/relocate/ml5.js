@@ -80,7 +80,7 @@ function gotPoses(results) {
         if (headAngle > 15) {
             if (handRaised) {
                 //move the camera
-                lon -= .005;
+                lon -= .0005;
                 computeCameraOrientation();
             } else {
                 //move p5sketch
@@ -91,7 +91,7 @@ function gotPoses(results) {
         if (headAngle < -15) {
             if (handRaised) {
                 //move the camera
-                lon += .005;
+                lon += .0005;
                 computeCameraOrientation();
             } else {
                 //move p5sketch
